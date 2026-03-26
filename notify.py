@@ -49,7 +49,7 @@ def build_message(lunar_day: int, lunar_month: int, solar_tomorrow: date) -> str
     """
     solar_str = solar_tomorrow.strftime("%d/%m/%Y")
 
-    if lunar_day == 1:
+    if lunar_day == 9:
         return (
             f"🕯️ <b>Nhắc nhở: Ngày mai là Mùng 1 Âm lịch</b>\n"
             f"📅 Mùng 1 tháng {lunar_month} Âm lịch\n"
